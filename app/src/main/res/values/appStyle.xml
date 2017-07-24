@@ -1,0 +1,6 @@
+<resources>
+    <color name="my_theme_color">#FF69B4</color>
+    <style name="String">
+        <item name="android:inputType">text</item>
+    </style>
+</resources>

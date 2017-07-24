@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ekene.flamesng">
+
+    <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/flames_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:logo="@mipmap/flames_logo"
+        android:theme="@style/Theme.AppCompat.Light">
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DisplayMessageActivity" android:theme="@style/AppTheme"></activity>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider628383970695812"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/>
+
+    </application>
+
+</manifest>

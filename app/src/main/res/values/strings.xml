@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FlamesNG</string>
+    <string name="user_name">Enter your name</string>
+    <string name="crush_name">Enter your crush\'s name</string>
+    <string name="button_send">Match</string>
+    <string name="play_again">Play Again</string>
+    <string name="share">Share</string>
+    <string name="fb_share">Share on Facebook</string>
+    <string name="facebook_app_id">628383970695812</string>
+</resources>
